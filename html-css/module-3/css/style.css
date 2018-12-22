@@ -1,12 +1,12 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 .wrapper
 {margin: 0 auto;
  box-sizing: border-box
 }
-.wrapper-main
+.main-wrapper
 {
   box-sizing: border-box;
   width: 900;
@@ -29,41 +29,40 @@
 {
 padding: 77px;
 box-sizing: border-box;
-
 text-align: center;
-
 }
 .left-article, .right-article
 { 
   display: inline-block;
   width: 420;
   height: auto;
-  margin: 0 auto;
+  margin: 0 0 0 150;
   list-style: none;
-}
-.left-post 
-{ 
-
-  margin: 100 0 0 150;
-  width: 480
-    
 }
 .left-text, .right-text
 { display: inline-block;
   width: 420;
-  height: auto;
   margin: 0 auto;
-  text-align: center
+  
 }
 .lifestyle, .photodiary 
 {
   display: inline-block;
   width: 420;
-  height: auto;
+  text-align: left
 }
 .right-item, .left-item
 {
   display: inline-block;
   width: 420;
-  
+  margin: 0 auto;
+  }
+.left-post
+{
+  display: inline-block;
+  margin: 0 auto;
+}
+.left-img
+{
+margin: 0 0 0 150;
 }
