@@ -1,18 +1,21 @@
 * {
-  margin: 0px auto;
-  padding: 0px;
-  box-sizing: border-box
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.conteiner
+{
+  display: inline-block;
+  margin-left: 200px;
+  }
 
-.wrapper {
+.wrapper,
+  main-wrapper {
   width: 900px;
-  margin: 0px auto;
-}
-
-.main-wrapper {
-  width: 900px;
-  margin: 0 0 0 150px
-}
+  margin: 0 auto;
+  display: inline-block;
+  }
+  
 
 .body {
   font-family: 'Roboto',
@@ -82,17 +85,18 @@
 .right-post {
   display: inline-block;
   width: 420px;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 55px;
 }
 
 .buttonload {
   width: 160px;
   height: 60px;
   cursor: pointer;
-  font-size: 20px
+  font-size: 20px;
+  background-color: transparent;
+  outline: none
 }
 
 .button {
-  text-align: center;
-  margin: 0 0 74px 0
+    margin: 0 0 74px 0;
 }
