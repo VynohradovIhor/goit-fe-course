@@ -1,97 +1,98 @@
 * {
   margin: 0px auto;
-  padding: 0px ;
+  padding: 0px;
   box-sizing: border-box
 }
-.wrapper
-{
-  width:  900px;
+
+.wrapper {
+  width: 900px;
   margin: 0px auto;
 }
-.main-wrapper
-  {
+
+.main-wrapper {
   width: 900px;
   margin: 0 0 0 150px
-  }
-.header
-{
+}
+
+.body {
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.header {
   padding: 77px 0px 0px 0px;
   margin: 0px 0px 100px 0px;
 }
-.list-item
-{
+
+.list-item {
   list-style: none;
   display: inline-block;
   margin: 0px 110px 0px 0px
 }
-.nav-list
-{
+
+.nav-list {
   text-align: center;
   text-transform: uppercase
 }
-.nav-link
-{
+
+.nav-link {
   text-decoration: none;
   color: black
 }
-.left-img, .right-img
-{
-margin: 0 0 30px 0
+
+.left-img,
+.right-img {
+  margin: 0 0 30px 0
 }
-.lifestyle
-{
+
+.lifestyle {
   display: inline-block;
   width: 420px;
   margin: 0 0 30px 0;
   text-transform: uppercase;
   font-size: 14px
 }
-.left-head, .right-head
-{
+
+.left-head,
+.right-head {
   display: inline-block;
   width: 420px;
   margin: 0 0 40px 0;
   font-size: 30px;
 }
-.right-text, .left-text
-{
+
+.right-text,
+.left-text {
   display: inline-block;
   width: 420px;
   margin: 0 0 130px 0
 }
-.right-article
-{
+
+.right-article,
+.left-article {
   list-style: none;
-  
 }
-.left-article
-{
-  list-style: none;
-  margin: 0 0 0 0
-}
-.left-post
-{
+
+.left-post {
   display: inline-block;
   width: 420px;
   margin: 0 0 0 0;
 }
-.right-post
-{
+
+.right-post {
   display: inline-block;
   width: 420px;
-  margin: 0 0 0 50px ;
-  
+  margin: 0 0 0 50px;
 }
 
-.buttonload
-{ width: 160px;
+.buttonload {
+  width: 160px;
   height: 60px;
   cursor: pointer;
   font-size: 20px
 }
-.button
-{
-text-align: center;
-margin: 0 0 74px 0
 
+.button {
+  text-align: center;
+  margin: 0 0 74px 0
 }
