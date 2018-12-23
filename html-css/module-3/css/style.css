@@ -1,68 +1,7 @@
 * {
-  margin: 0 auto;
-  padding: 0;
+  margin: 0px auto;
+  padding: 0 px;
+  box-sizing: border-box
 }
-.wrapper
-{margin: 0 auto;
- box-sizing: border-box
-}
-.main-wrapper
-{
-  box-sizing: border-box;
-  width: 900;
-  margin: 0 auto
-}
-.list-item
-{
-  display: inline-block;
-  margin: 0 20px 0 0;
- }
- .nav-link
- {
-   text-transform: uppercase;
-   text-decoration: none;
-   display: inline-block;
-   margin: 0px 40px 0px 40px
-   
- }
-.nav-list
-{
-padding: 77px;
-box-sizing: border-box;
-text-align: center;
-}
-.left-article, .right-article
-{ 
-  display: inline-block;
-  width: 420;
-  height: auto;
-  margin: 0 0 0 150;
-  list-style: none;
-}
-.left-text, .right-text
-{ display: inline-block;
-  width: 420;
-  margin: 0 auto;
-  
-}
-.lifestyle, .photodiary 
-{
-  display: inline-block;
-  width: 420;
-  text-align: left
-}
-.right-item, .left-item
-{
-  display: inline-block;
-  width: 420;
-  margin: 0 auto;
-  }
-.left-post
-{
-  display: inline-block;
-  margin: 0 auto;
-}
-.left-img
-{
-margin: 0 0 0 150;
-}
+
+

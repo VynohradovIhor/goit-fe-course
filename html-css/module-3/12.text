@@ -1,0 +1,47 @@
+.wrapper
+{
+  margin: 0px auto;
+  box-sizing: border-box
+}
+.main-wrapper
+{
+  box-sizing: border-box;
+  width: 900px;
+  margin: 0px auto
+}
+ .nav-link 
+{
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0px 40px 0px 40px
+}
+ 
+.nav-list
+{
+  padding: 77px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.left-item, .right-item
+{
+  display: inline;
+}
+.left-article, 
+{ 
+  display: inline-block;
+  width: 420px;
+  height: auto;
+  margin: 0px 0px 0px 150px;
+  list-style: none;
+}
+.right-article
+{
+
+}
+.left-text, .right-text
+{ 
+  display: inline-block;
+  width: 420px;
+  margin: 0 auto;
+}
