@@ -3,11 +3,16 @@
   padding: 0px ;
   box-sizing: border-box
 }
-.main-wrapper, .wrapper
+.wrapper
 {
   width:  900px;
   margin: 0px auto;
 }
+.main-wrapper
+  {
+  width: 900px;
+  margin: 0 0 0 150px
+  }
 .header
 {
   padding: 77px 0px 0px 0px;
@@ -38,14 +43,15 @@ margin: 0 0 30px 0
   display: inline-block;
   width: 420px;
   margin: 0 0 30px 0;
-  text-transform: uppercase
-
+  text-transform: uppercase;
+  font-size: 14px
 }
 .left-head, .right-head
 {
   display: inline-block;
   width: 420px;
-  margin: 0 0 40px 0
+  margin: 0 0 40px 0;
+  font-size: 30px;
 }
 .right-text, .left-text
 {
@@ -65,14 +71,27 @@ margin: 0 0 30px 0
 }
 .left-post
 {
-  display: inline block;
+  display: inline-block;
   width: 420px;
-  margin: 0 0 0 0
-
+  margin: 0 0 0 0;
 }
 .right-post
 {
-  display: inline block;
+  display: inline-block;
   width: 420px;
-  margin: 0 0 0 500px
+  margin: 0 0 0 50px ;
+  
+}
+
+.buttonload
+{ width: 160px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 20px
+}
+.button
+{
+text-align: center;
+margin: 0 0 74px 0
+
 }
