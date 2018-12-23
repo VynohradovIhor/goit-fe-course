@@ -35,13 +35,31 @@ margin: 0 0 30px 0
 }
 .lifestyle
 {
-margin: 0 0 30px 0
+  display: inline-block;
+  width: 420px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase
+
 }
 .left-head, .right-head
 {
+  display: inline-block;
+  width: 420px;
   margin: 0 0 40px 0
 }
 .right-text, .left-text
 {
+  display: inline-block;
+  width: 420px;
   margin: 0 0 130px 0
+}
+.right-article, .left-article
+{
+  list-style: none
+}
+.left-post, .right-post
+{
+  display: inline block;
+  width: 420px;
+
 }
