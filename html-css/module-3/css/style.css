@@ -3,18 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-.conteiner
-{
-  display: inline-block;
-  margin-left: 200px;
-  }
 
-.wrapper,
-  main-wrapper {
+.wrapper
+ {
   width: 900px;
   margin: 0 auto;
-  display: inline-block;
-  }
+}
   
 
 .body {
@@ -24,16 +18,17 @@
 
 .header {
   padding: 77px 0px 0px 0px;
-  margin: 0px 0px 100px 0px;
+  margin: 0 0 100px 0;
 }
 
 .list-item {
   list-style: none;
   display: inline-block;
-  margin: 0px 110px 0px 0px
+  margin: 0px 90px 0px 0px
 }
 
 .nav-list {
+  margin: 0 auto;
   text-align: center;
   text-transform: uppercase
 }
@@ -79,7 +74,7 @@
 .left-post {
   display: inline-block;
   width: 420px;
-  margin: 0 0 0 0;
+  margin: 0 auto;
 }
 
 .right-post {
@@ -89,6 +84,7 @@
 }
 
 .buttonload {
+  border: 1px solid grey;
   width: 160px;
   height: 60px;
   cursor: pointer;
@@ -96,7 +92,11 @@
   background-color: transparent;
   outline: none
 }
+.button-wrapper
+{
+  display: inline-block;
+  width: 1300px;
+  margin: 0 0 77px 0;
+  text-align: center;
 
-.button {
-    margin: 0 0 74px 0;
 }
