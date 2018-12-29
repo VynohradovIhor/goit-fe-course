@@ -13,7 +13,6 @@
 }
 
 .header {
-  display: inline-block;
   margin-bottom: 100px;
   padding-top: 77px;
   text-align: center;
@@ -28,7 +27,12 @@
   display: inline-block;
   list-style: none;
   font-size: 14px;
-  margin: 0 50px 0 90px;
+  margin-right:110px;
+}
+
+.list-item:last-child
+{
+  margin-right: 0;
 }
 
 .nav-link {
@@ -39,7 +43,6 @@
 }
 
 .post-main {
-  padding-top: 100px;
   text-align: justify;
 }
 
