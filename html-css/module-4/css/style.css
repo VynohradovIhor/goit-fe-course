@@ -79,6 +79,7 @@
 
 .gallery {
     margin-top: 100px;
+    float: left;
 }
 
 .products {
@@ -117,7 +118,7 @@
 }
 
 .news-title{
-
+text-align: center;
 }
 .blog-main {
     float: left;
