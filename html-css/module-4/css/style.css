@@ -13,16 +13,19 @@
 .wrapper {
     width: 1110px;
     margin: 0 auto;
-    
+
 }
 
-.nav {}
+.nav {
+    margin-top: 38px;
+    height: 30px;
+}
 
 .logo {
 
     font-family: "Roboto";
     float: left;
-    margin-top: 38px;
+
 }
 
 
@@ -39,18 +42,27 @@
 
 }
 
-.menu section {}
+.menu-section {
+    width: 465px;
+    height: 30px;
+    float: right;
+}
+
+
+.menu-item:last-child {
+    margin-left: 0;
+    float: left;
+}
 
 .menu-item {
     float: right;
     text-transform: uppercase;
     list-style: none;
-    margin-top: 43px;
     line-height: 1.067;
+    margin-left: 45px;
+    margin-top: 5px;
 
 }
-
-
 
 .menu {
 
@@ -58,12 +70,70 @@
     font-weight: bold;
     color: #000000;
     font-size: 11px;
-    margin-left: 45px;
-
 }
+
 
 .menu:hover {
     color: rgb(26, 188, 156);
 }
 
-.gallery {}
+.gallery {
+    margin-top: 100px;
+}
+
+.products {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.news {
+    text-decoration: none;
+    font-size: 48px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    line-height: 0.667;
+}
+
+.news:hover::after {
+    width: 100%;
+    ;
+}
+
+.product {
+    width: 255px;
+    float: left;
+}
+
+.product-title {}
+
+.product-item {}
+
+.price {}
+
+.price-item {}
+
+.blog {
+    margin-top: 100px;
+}
+
+.news-title{
+
+}
+.blog-main {
+    float: left;
+    width: 345px;
+}
+
+.block-img {}
+
+.blog-title {}
+
+blog-item {}
+
+.lorem-text {}
+
+.lorem-item {}
+
+.main-buttom {}
+
+.buttom {}
