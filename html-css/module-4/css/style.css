@@ -13,7 +13,7 @@
 .wrapper {
     width: 1110px;
     margin: 0 auto;
-
+    
 }
 
 .nav {
@@ -103,6 +103,15 @@
 .product {
     width: 255px;
     float: left;
+    margin-right: 30px;
+}
+.product:nth-child(5){
+margin-right: 0px;
+float: right;
+}
+.product:nth-child(9) {
+    margin-right: 0px;
+    float: right;
 }
 
 .product-title {}
@@ -115,10 +124,12 @@
 
 .blog {
     margin-top: 100px;
+    float: left;
 }
 
 .news-title{
 text-align: center;
+margin-bottom: 80px;
 }
 .blog-main {
     float: left;
