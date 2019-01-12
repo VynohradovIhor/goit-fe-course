@@ -4,7 +4,8 @@
     padding: 0;
     color: rgb(81, 81, 81);
     font-family: 'Roboto',
-    sans-serif;
+        sans-serif;
+       
 }
 
 
@@ -17,19 +18,18 @@
 .nav {
     padding-top: 38px;
     height: 30px;
-    
+
 }
 
 .logo {
-    
-    font-family: "Roboto";
+
     float: left;
     margin: 0;
-    
+
 }
 
 .mart {
-    
+    font-family: Roboto-Light;
     font-size: 30px;
     text-transform: uppercase;
     line-height: 0.67;
@@ -38,7 +38,7 @@
 
 }
 
-.mart:hover::first-letter {
+.mart:first-letter {
     color: rgb(26, 188, 156);
     font-weight: bold;
 }
@@ -77,11 +77,16 @@
 .menu:hover {
     color: rgb(26, 188, 156);
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .gallery {
     padding-top: 100px;
     float: left;
-    
+
 }
 
 .products {
@@ -92,14 +97,19 @@
 .news {
     text-decoration: none;
     font-size: 48px;
-    font-family: "Roboto";
     text-transform: uppercase;
     line-height: 0.667;
 }
 
-.news:hover::after {
-    width: 100%;
-    ;
+.news::after {
+    content: "";
+    border-bottom: 7px solid;
+    color: rgb(26, 188, 156);
+    display: block;
+    width: 165px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
 }
 
 .product {
@@ -113,24 +123,25 @@
     margin-right: 0px;
     float: right;
 }
-.product:nth-child(n+6)
-{
+
+.product:nth-child(n+6) {
     padding-top: 30px;
 }
+
 .product-image {
     background-color: rgb(233, 240, 253);
+    margin-bottom: -3px;
+
 }
 
 
-.product-title
- { 
-   width: 201px;
-   height: 40px;
-   
-   float: left;
-   background-color:rgb(51, 51, 51);
-    }
-    
+.product-title {
+    width: 201px;
+    height: 40px;
+    float: left;
+    background-color: rgb(51, 51, 51);
+}
+
 
 
 .product-item {
@@ -141,19 +152,19 @@
     text-transform: uppercase;
     font-size: 18px;
     color: rgb(255, 255, 255);
-    
-    }
+
+}
 
 
 .price {
-    
+
     float: right;
     width: 54px;
     height: 40px;
     text-align: center;
-     background-color:rgb(51, 51, 51);
-     opacity: 0.439;
-    
+    background-color: rgb(51, 51, 51);
+    opacity: 0.439;
+
 }
 
 .price-item {
@@ -166,10 +177,16 @@
     text-transform: uppercase;
     line-height: 1.778;
     font-weight: bold;
-   
-    
+
+
+}
+.product:hover .product-title {
+    background-color: rgb(51, 204, 153);
 }
 
+.product:hover .price{
+    background-color: rgb(51, 204, 153);
+}
 .blog {
     padding-top: 100px;
     float: left;
@@ -184,6 +201,7 @@
     float: left;
     width: 345px;
 }
+
 
 .block-img {}
 
