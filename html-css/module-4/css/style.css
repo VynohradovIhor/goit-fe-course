@@ -13,33 +13,36 @@
 .wrapper {
     width: 1110px;
     margin: 0 auto;
-    
+
 }
 
 .nav {
-    margin-top: 38px;
+    padding-top: 38px;
     height: 30px;
+    
 }
 
 .logo {
-
+    
     font-family: "Roboto";
+    float: left;
+    margin: 0;
+    
+}
+
+.mart {
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 0.67;
+    text-decoration: none;
     float: left;
 
 }
 
-
-.logo:hover::first-letter {
+.mart:hover::first-letter {
     color: rgb(26, 188, 156);
     font-weight: bold;
-}
-
-.mart {
-    font-size: 30px;
-    text-transform: uppercase;
-    line-height: 1.067;
-    text-decoration: none;
-
 }
 
 .menu-section {
@@ -78,8 +81,9 @@
 }
 
 .gallery {
-    margin-top: 100px;
+    padding-top: 100px;
     float: left;
+    background-color: aqua;
 }
 
 .products {
@@ -104,33 +108,47 @@
     width: 255px;
     float: left;
     margin-right: 30px;
+    background-color: rgb(27, 150, 88);
 }
-.product:nth-child(5){
-margin-right: 0px;
-float: right;
+.product-image{
+  background-color:rgb(223, 108, 204);
 }
-.product:nth-child(9) {
+.product:nth-child(4n+1) {
     margin-right: 0px;
     float: right;
 }
 
-.product-title {}
 
-.product-item {}
+.product-title {
+    background-color: rgb(200, 131, 26)
+}
 
-.price {}
+.product-item {
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(49, 4, 92)
+}
 
-.price-item {}
+.price {
+    float: right;
+    background-color: rgb(6, 68, 68)
+}
+
+.price-item {
+    text-decoration: none;
+}
 
 .blog {
-    margin-top: 100px;
+    padding-top: 100px;
     float: left;
 }
 
-.news-title{
-text-align: center;
-margin-bottom: 80px;
+.news-title {
+    text-align: center;
+    padding-bottom: 80px;
 }
+
 .blog-main {
     float: left;
     width: 345px;
