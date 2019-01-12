@@ -5,9 +5,10 @@
     color: rgb(81, 81, 81);
     font-family: 'Roboto',
         sans-serif;
-       
-}
+    font-family: 'Open Sans',
+        sans-serif;
 
+}
 
 .wrapper {
     width: 1110px;
@@ -18,29 +19,25 @@
 .nav {
     padding-top: 38px;
     height: 30px;
-
 }
 
 .logo {
-
     float: left;
     margin: 0;
-
 }
 
 .mart {
-    font-family: Roboto-Light;
+    font-family: 'Roboto';
     font-size: 30px;
     text-transform: uppercase;
-    line-height: 0.67;
     text-decoration: none;
     float: left;
-
 }
 
 .mart:first-letter {
     color: rgb(26, 188, 156);
-    font-weight: bold;
+    line-height: 1.067;
+
 }
 
 .menu-section {
@@ -73,10 +70,10 @@
     font-size: 11px;
 }
 
-
 .menu:hover {
     color: rgb(26, 188, 156);
 }
+
 .clearfix::after {
     content: "";
     display: table;
@@ -109,7 +106,7 @@
     width: 165px;
     margin: 0 auto;
     margin-top: 30px;
-    
+
 }
 
 .product {
@@ -130,8 +127,7 @@
 
 .product-image {
     background-color: rgb(233, 240, 253);
-    margin-bottom: -3px;
-
+    display: block;
 }
 
 
@@ -152,19 +148,16 @@
     text-transform: uppercase;
     font-size: 18px;
     color: rgb(255, 255, 255);
-
 }
 
 
 .price {
-
     float: right;
     width: 54px;
     height: 40px;
     text-align: center;
     background-color: rgb(51, 51, 51);
     opacity: 0.439;
-
 }
 
 .price-item {
@@ -177,19 +170,20 @@
     text-transform: uppercase;
     line-height: 1.778;
     font-weight: bold;
-
-
 }
+
 .product:hover .product-title {
     background-color: rgb(51, 204, 153);
 }
 
-.product:hover .price{
+.product:hover .price {
     background-color: rgb(51, 204, 153);
 }
+
 .blog {
     padding-top: 100px;
     float: left;
+
 }
 
 .news-title {
@@ -200,19 +194,63 @@
 .blog-main {
     float: left;
     width: 345px;
+    margin-right: 37px;
 }
 
+.blog-main:last-child {
+    margin: 0px;
+}
 
-.block-img {}
+.block-img {
+    margin-bottom: 15px;
+}
 
-.blog-title {}
+.blog-item {
+    font-family: 'Open Sans';
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.444;
+    color: rgb(85, 82, 82);
+}
 
-blog-item {}
+.blog-item::after {
+    content: "";
+    border-bottom: 3px solid;
+    color: rgb(26, 188, 156);
+    display: block;
+    width: 140px;
+    margin-top: 15px;
+}
 
-.lorem-text {}
+.lorem-text {
+    padding-top: 40px;
+}
 
-.lorem-item {}
+.lorem-item {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: rgb(85, 82, 82);
+    line-height: 1.857;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
-.main-buttom {}
+.main-buttom {
+    margin-bottom: 80px;
 
-.buttom {}
+}
+
+.buttom {
+    height: 50px;
+    width: 160px;
+    background-color: rgb(51, 204, 153);
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: rgb(255, 255, 255);
+    line-height: 1.625;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
