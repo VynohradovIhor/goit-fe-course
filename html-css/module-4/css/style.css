@@ -23,10 +23,10 @@
 
 .logo {
     float: left;
-    margin: 0;
 }
 
 .mart {
+    margin: 0;
     font-family: 'Roboto',
         sans-serif;
     color: rgb(102, 102, 102);
@@ -46,13 +46,11 @@
 }
 
 .menu-item {
-    font-family: 'Open Sans',
-        sans-serif;
     float: right;
     text-transform: uppercase;
     list-style: none;
     line-height: 1.067;
-    margin-left: 45px;
+    margin-left: 35px;
     margin-top: 5px;
 }
 
@@ -64,9 +62,10 @@
     font-family: 'Open Sans',
         sans-serif;
     text-decoration: none;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
-    font-size: 11px;
+    font-weight: bold;
+    line-height: 0.786;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
 }
 
 .menu:hover {
@@ -77,12 +76,9 @@
     padding-top: 100px;
 }
 
-.products {
+.news {
     text-align: center;
     margin-bottom: 90px;
-}
-
-.news {
     font-family: 'Roboto',
         sans-serif;
     text-decoration: none;
@@ -112,8 +108,8 @@
     float: right;
 }
 
-.product:nth-child(n+6) {
-    padding-top: 30px;
+.product:nth-child(-n+5) {
+    margin-bottom: 30px;
 }
 
 .product-image {
@@ -122,6 +118,7 @@
 }
 
 .product-title {
+  
     height: 40px;
     background-image: linear-gradient(to right, #333333 75%, #33333399 25%);
 }
@@ -131,6 +128,7 @@
 }
 
 .product-item {
+    
     font-family: 'Roboto',
         sans-serif;
     float: left;
@@ -159,11 +157,6 @@
 .blog {
     padding-top: 100px;
     float: left;
-}
-
-.news-title {
-    text-align: center;
-    padding-bottom: 80px;
 }
 
 .blog-main {
@@ -209,9 +202,9 @@
 }
 
 .buttom {
+    margin-bottom: 80px;
     height: 50px;
     width: 160px;
-    margin-bottom: 80px;
     background-color: rgb(51, 204, 153);
     font-size: 16px;
     font-family: 'Open Sans';
