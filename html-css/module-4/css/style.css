@@ -20,10 +20,6 @@
     padding-top: 38px;
 }
 
-.nav {
-    padding-top: 0px;
-}
-
 .logo {
     float: left; 
 }
@@ -49,9 +45,10 @@
 }
 
 .nav {
-    float: right;
+    float: right; 
     margin-top: 10px;
 }
+
 .menu-item {
     float: left;
     text-transform: uppercase;
