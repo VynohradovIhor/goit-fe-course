@@ -235,7 +235,7 @@
     cursor: pointer;
     border: none;
     text-decoration: none;
-    color: rgba(255, 255, 255, .8);
+    color: rgb(255, 255, 255);
     line-height: 1.625;
     text-align: center;
 }    
