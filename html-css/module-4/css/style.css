@@ -16,6 +16,7 @@
     display: table;
     clear: both;
 }
+
 .header {
     padding-top: 38px;
 }
@@ -185,7 +186,8 @@
         sans-serif;
     text-decoration: none;
     font-size: 18px;
-    line-height: 1.444;
+    line-height: 1.6;
+    font-weight: 600;
     color: rgb(102, 102, 102);
 }
 
@@ -195,7 +197,7 @@
     color: rgb(26, 188, 156);
     display: block;
     width: 140px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .lorem-item {
@@ -204,8 +206,9 @@
     font-size: 14px;
     color: rgb(102, 102, 102);
     line-height: 1.857;
+    font-weight: 400;
     margin-bottom: 15px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .buttom {
