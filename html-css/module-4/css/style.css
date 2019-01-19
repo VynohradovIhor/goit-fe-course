@@ -23,10 +23,11 @@
 
 .logo {
     float: left;
+    padding-top: 10px;
 }
 
 .mart {
-    margin: 0;
+    
     font-family: 'Roboto',
         sans-serif;
     color: rgb(102, 102, 102);
@@ -45,17 +46,20 @@
     font-weight: 900;
 }
 
-.menu-item {
+.nav {
     float: right;
+}
+.menu-item {
+    float: left;
     text-transform: uppercase;
     list-style: none;
     line-height: 1.067;
-    margin-left: 35px;
-    margin-top: 5px;
+    margin-right: 35px;
+    
 }
 
 .menu-item:last-child {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .menu {
@@ -66,6 +70,7 @@
     line-height: 0.786;
     color: rgb(102, 102, 102);
     font-size: 14px;
+    padding: 5px 0 5px 0;
 }
 
 .menu:hover {
@@ -105,7 +110,6 @@
 
 .product:nth-child(4n+1) {
     margin-right: 0px;
-    float: right;
 }
 
 .product:nth-child(-n+5) {
@@ -132,8 +136,7 @@
     font-family: 'Roboto',
         sans-serif;
     float: left;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
@@ -200,18 +203,26 @@
     margin-bottom: 15px;
     padding-top: 30px;
 }
-
-.buttom {
+.buttom-main{
+    display: block;
+    font-size: 16px;
+    font-family: 'Open Sans';
     margin-bottom: 80px;
     height: 50px;
     width: 160px;
     background-color: rgb(51, 204, 153);
-    font-size: 16px;
-    font-family: 'Open Sans';
-    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttom {
+    
+    
+    text-decoration: none;
+    color: rgba(255, 255, 255, .8);
     line-height: 1.625;
     text-align: center;
-    cursor: pointer;
-    outline: none;
-    border: none;
+    
+    
 }
