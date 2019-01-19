@@ -109,7 +109,7 @@
 }
 
 .product:nth-child(4n+1) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .product:nth-child(-n+5) {
@@ -174,7 +174,7 @@
 }
 
 .blog-main:last-child {
-    margin: 0px;
+    margin-right: 0px;
 }
 
 .block-img {
