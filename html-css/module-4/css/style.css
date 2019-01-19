@@ -130,9 +130,7 @@
 .product:hover .product-title {
     background-color: #33cc99;
 }
- .product-item:hover .product-item {
-     background-color: #33cc9999;
- }
+ 
 
 .product-item {
     width: 200px;
@@ -145,10 +143,12 @@
     font-size: 18px;
     color: rgb(255, 255, 255);
 }
+.product:hover .product-item {
+    background-color: #33cc9999;
+}
 
 .price-item {
     width: 53px;
-    height: 40px;
     font-family: 'Roboto',
         sans-serif;
     float: right;
