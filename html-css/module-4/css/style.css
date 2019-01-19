@@ -16,15 +16,16 @@
     display: table;
     clear: both;
 }
-
-.nav {
+.header {
     padding-top: 38px;
 }
 
+.nav {
+    padding-top: 0px;
+}
+
 .logo {
-    float: left;
-    padding-top: 10px;
-    /* padding-bottom: 10px;  */
+    float: left; 
 }
 
 .mart {
@@ -32,9 +33,10 @@
         sans-serif;
     color: rgb(102, 102, 102);
     font-size: 30px;
+    margin: 0px;
     text-transform: uppercase;
     text-decoration: none;
-    float: left;
+    float: left; 
     font-weight: 300;
 }
 
@@ -48,6 +50,7 @@
 
 .nav {
     float: right;
+    margin-top: 10px;
 }
 .menu-item {
     float: left;
@@ -69,7 +72,7 @@
     line-height: 0.786;
     color: rgb(102, 102, 102);
     font-size: 14px;
-    padding: 5px;
+   
 }
 
 .menu:hover {
