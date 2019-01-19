@@ -24,7 +24,7 @@
 .logo {
     float: left;
     padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px;  */
 }
 
 .mart {
