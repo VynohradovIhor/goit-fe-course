@@ -236,6 +236,7 @@ height: auto;
          margin: 0 auto;
          margin-top: 30px;
 }
+
 .card-product{
  width: 255px;
  float: left;
@@ -246,9 +247,11 @@ height: auto;
 .card-product:last-child{
     margin-right: 0;
 }
+
 .img-product{
     position: absolute;
 }
+
 .product-item {
     position: absolute;
     top: 280px;
