@@ -114,6 +114,7 @@
 .slider-center {
   
   position: absolute;  
+  
   top: 50%;  
   left: 50%;  
   transform: translate(-50%, -50%);  
@@ -139,16 +140,16 @@
   font-size: 24px;
   font-weight: 300;
   color: rgb(255, 255, 255);
-  
-  
+  text-align: left;
+  padding: 20px 178px 20px 178px;
 }
 
 .left-button {
- /* float: left; */
+ display: block;
  position: absolute;
  top: 50%;
- left: 0;
- transform: tanslateY(-50%);
+ left: 0; 
+ transform: translateY(-50%);
  background-image: url(./img/left-icon.png);
  background-repeat: no-repeat;
  background-position: 50% 50%;
@@ -157,12 +158,14 @@
  cursor: pointer;
  border: none;
  background-color: rgba(78, 198, 171, 0.65);
- 
- 
 }
 
 .right-button {
-  float: right; 
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0; 
+  transform: translateY(-50%);
   background-image: url(./img/right-icon.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -171,7 +174,6 @@
   cursor: pointer;
   border: none;
   background-color: rgba(78, 198, 171, 0.65);
-  
 }
 
 .right-button:hover,
