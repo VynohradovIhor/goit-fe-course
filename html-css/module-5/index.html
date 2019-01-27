@@ -26,12 +26,13 @@
   </head>
 
   <body>
-    <div class="wrapper clearfix">
-      <header class="header clearfix">
-        <a href="#" class="logo clearfix"><h1 class="mart">mart</h1></a>
+      <div class="wrapper">
+       <header class="header">
+
+        <a href="#" class="logo"><h1 class="mart">mart</h1></a>
 
         <nav class="nav">
-          <ul class="menu-section clearfix">
+          <ul class="menu-section">
             <li class="menu-item"><a href="#" class="menu">home</a></li>
             <li class="menu-item"><a href="#" class="menu">about us</a></li>
             <li class="menu-item"><a href="#" class="menu">page</a></li>
@@ -41,40 +42,41 @@
           </ul>
         </nav>
       </header>
+    </div>
 
      <main class="module">
 
       <section class="slider">
 
-        <ul class="slider-main">
-          <li class="slider-item">
-            <img
+        <article class="slider-main">
+              <img
               src="./img/img1.png"
               alt="poster"
               class="slider-img"
-              width="1920"
+              width="1920" 
               height="700"
             />
-            <div class="slider-post">
-              <h2 class="head-poster">affordable paris tours</h2>
-              <p class="head-text">city tours/tour tickets/tour guides</p>
-            </div>
-          </li>
-        </ul>
-
-        <button class="left-button"></button>
-
-        <button class="right-button"></button>
-
+            <div class="overlay">
+              <div class="slider-center">
+               <div class="wrapper">
+                 
+                 <h2 class="head-poster">affordable paris tours</h2>
+                 <p class="head-text">city tours/tour tickets/tour guides</p>
+                 <button class="left-button"></button>
+                 <button class="right-button"></button>
+              </div>
+             </div>
+           </div>
+        </article>
       </section>
 
       <section class="card-product-main clearfix">
+        <div class="wrapper">
 
         <h2 class="news">new collection</h2>
 
         <article class="card-product">
-          <ul class="card-product-img">
-            <li class="card-product-img-item">
+          
               <a class="product-main" href="#">
                 <img
                   class="img-product"
@@ -94,9 +96,8 @@
                 <li class="hover-item"><button class="time-item"></button></li>
                 <li class="hover-item"><button class="basket-item">add to cart</button>
                </li>
-              </ul>
-            </li>
-          </ul>
+            </ul>
+            
         </article>
 
         <article class="card-product">
@@ -176,6 +177,7 @@
             </li>
           </ul>
         </article>
+        </div>
       </section>
     </main>
     
@@ -187,6 +189,5 @@
           </p>
         </footer>
       </section>
-    </div>
   </body>
 </html>
