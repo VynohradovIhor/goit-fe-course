@@ -84,7 +84,7 @@
 }
 
 .menu:hover {
-  color: var(menu-hover-color);
+  color: var(--menu-hover-color);
 }
 
 .slider-main {
