@@ -215,10 +215,6 @@
   margin-right: 0;
 }
 
-
-
-
-
 .name-product {
   float: left;
   width: 200px;
@@ -227,6 +223,7 @@
   text-transform: uppercase;
   font-size: 18px;
   color: rgb(255, 255, 255);
+
 }
 
 .price-product {
@@ -242,10 +239,60 @@
   font-weight: bold;
 }
 
+
 .card-product:hover .product-item {
   background-color: #33cc99;
 }
+ .img-product{
+   display: block;
+ }
 
+.product-item{
+  height: 40px;
+  background-color: #333333;
+}
+.overlay-cart{
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ right: 10px;
+ bottom: 50px;
+ background-color: rgba(0, 0, 0, 0.52);
+ display: none;
+}
+
+.card-product:hover .overlay-cart {
+  display: block;
+}
+
+.product-hover{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  
+  display: block;
+  font-size: 0px; 
+ 
+  
+  
+}
+
+.hover-item{
+  display: inline-block;
+  
+}
+
+
+
+.hover-item:last-child{
+  margin-right: 0;
+}
+.hover-item:nth-child(-n + 3) {
+  margin-bottom: calc((160px - 150px) / 2);
+}
+.hover-item:nth-child(n + 3) {
+  margin-right: 0;
+}
 
 
 .like-item {
@@ -253,7 +300,7 @@
   background-position: 50% 50%;
   width: 50px;
   height: 50px;
-  display: block;
+  display: block; 
   background-image: url(./img/icon-like.png);
   background-color: transparent;
   cursor: pointer;
@@ -267,7 +314,7 @@
   width: 50px;
   height: 50px;
   cursor: pointer;
-  display: block;
+  display: block; 
   background-image: url(./img/icon-center.png);
   border: 1px solid;
   border-color: rgb(255, 255, 255);
@@ -279,7 +326,7 @@
   background-position: 50% 50%;
   width: 50px;
   height: 50px;
-  display: block;
+  display: block; 
   background-image: url(./img/icon-time.png);
   cursor: pointer;
   border: 1px solid;
@@ -288,7 +335,7 @@
 }
 
 .basket-item {
-  display: block;
+  display: block; 
   width: 165px;
   height: 50px;
   padding: 16px 10px 16px 10px;
@@ -305,6 +352,12 @@
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
   text-decoration: none;
+}
+.like-item:hover,
+.shadow-item:hover,
+.time-item:hover,
+.basket-item:hover {
+  background-color: #33cc99;
 }
 
 .footer{
