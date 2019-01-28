@@ -59,7 +59,7 @@
 
 .nav {
   text-align: right;
-  margin-top: 7px; 
+  padding-top: 7px; 
 }
 
 .menu-item {
@@ -112,17 +112,12 @@
 
 
 .slider-center {
-  
   position: absolute;  
-  
   top: 50%;  
   left: 50%;  
   transform: translate(-50%, -50%);  
   text-align: center; 
-  
-  
 }
-
 
 .head-poster {
   font-family: "Roboto", sans-serif;
@@ -130,7 +125,6 @@
   font-size: 60px;
   word-spacing: -5px;
   color: rgb(255, 255, 255);
-  
 }
 
 .head-text {
@@ -181,8 +175,6 @@
   background-color: rgb(51, 204, 153);
 }
 
-
-
 .news {
   text-align: center;
   margin-bottom: 90px;
@@ -201,14 +193,15 @@
   display: block;
   width: 165px;
   margin: 0 auto;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .card-product {
+  position: relative;
   width: 255px;
   float: left;
   margin-right: 30px;
-  position: relative;
+  margin-bottom: 100px;
 }
 
 .card-product:last-child {
@@ -239,19 +232,20 @@
   font-weight: bold;
 }
 
-
 .card-product:hover .product-item {
   background-color: #33cc99;
 }
- .img-product{
+
+ .img-product {
    display: block;
  }
 
-.product-item{
+.product-item {
   height: 40px;
   background-color: #333333;
 }
-.overlay-cart{
+
+.overlay-cart {
  position: absolute;
  top: 10px;
  left: 10px;
@@ -265,35 +259,30 @@
   display: block;
 }
 
-.product-hover{
+.product-hover {
   position: absolute;
   top: 30%;
   left: 15%;
-  
   display: block;
   font-size: 0px; 
- 
-  
-  
 }
 
-.hover-item{
+.hover-item {
   display: inline-block;
-  
+  margin-right: 7px;
 }
-
-
 
 .hover-item:last-child{
   margin-right: 0;
 }
+
 .hover-item:nth-child(-n + 3) {
-  margin-bottom: calc((160px - 150px) / 2);
+  margin-bottom: 7px;
 }
+
 .hover-item:nth-child(n + 3) {
   margin-right: 0;
 }
-
 
 .like-item {
   background-repeat: no-repeat;
@@ -353,6 +342,7 @@
   cursor: pointer;
   text-decoration: none;
 }
+
 .like-item:hover,
 .shadow-item:hover,
 .time-item:hover,
@@ -360,30 +350,23 @@
   background-color: #33cc99;
 }
 
-.footer{
-    width: 100%;
-    height: 88px;
-    background-color: #323232;
-    margin-top: 100px;
-}
-.footer-item{
-    width: 1110px;
-    height: 88px;
-    margin: 0 auto;
-    position: relative;
+
+
+.desigh {
+  width: 100%;
+  background-color: #323232;
+  padding: 40px; 
+  text-align: center;
 }
 
-.footer-main{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.footer-item {
     font-family: 'Open Sans',
     sans-serif;
     letter-spacing: -0.02em;
     color: #fefefe;
 }
-.span-footer{
+
+.span-footer {
     text-decoration: none;
     color: #46bfa9;
     cursor: pointer;
