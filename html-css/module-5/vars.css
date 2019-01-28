@@ -1,0 +1,22 @@
+:root {
+--main-font: "Open Sans",
+sans-serif;
+--semi-font: "Roboto",
+sans-serif;
+--main-color-hover: rgb(51, 204, 153);
+--background-color-button: rgba(78, 198, 171, 0.65);
+--main-color-text: rgb(255, 255, 255);
+--main-background-color: rgb(233, 240, 253);
+--main-overlay-color: rgba(0, 0, 0, 0.52);
+--main-border-color: rgb(255, 255, 255);
+--footer-background-color: rgb(50, 50, 50);
+--footer-text-color: rgb(254, 254, 254);
+--footer-design-color: rgb(70, 191, 169);
+--logo-color-text: rgb(102, 102, 102);
+--menu-color-text: rgb(0, 0, 0);
+--menu-hover-color: rgb(26, 188, 156);
+--price-product-background-color: rgba(255, 255, 255, 0.439);
+--product-item-background-color: rgb(51, 51, 51);
+--head-text-color: rgb(102, 102, 102);
+--line-color-head: rgb(26, 188, 156);
+}

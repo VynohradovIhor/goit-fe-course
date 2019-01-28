@@ -2,8 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--main-font);
+  font-family: var(--semi-font);
 }
 
 *::before,
@@ -21,7 +21,7 @@
 }
 
 .module {
-  background-color: rgb(233, 240, 253);
+  background-color: var(--main-background-color);
 }
 
 .clearfix::after {
@@ -40,8 +40,8 @@
 }
 
 .mart {
-  font-family: "Roboto", sans-serif;
-  color: rgb(102, 102, 102);
+  font-family: var(--semi-font);
+  color: var(--logo-color-text);
   font-size: 30px;
   margin: 0px;
   text-transform: uppercase;
@@ -51,8 +51,8 @@
 }
 
 .mart:first-letter {
-  font-family: "Roboto", sans-serif;
-  color: rgb(51, 204, 153);
+  font-family: var(--semi-font);
+  color: var(--main-color-hover);
   line-height: 1.067;
   font-weight: 900;
 }
@@ -75,16 +75,16 @@
 }
 
 .menu {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--main-font);
   text-decoration: none;
   font-weight: bold;
   line-height: 0.786;
-  color: rgb(0, 0, 0);
+  color: var(--menu-color-text);
   font-size: 14px;
 }
 
 .menu:hover {
-  color: rgb(26, 188, 156);
+  color: var(menu-hover-color);
 }
 
 .slider-main {
@@ -106,7 +106,7 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(0, 0, 0, 0.52);
+  background-color: var(--main-overlay-color);
   z-index: 1;
 }
 
@@ -120,20 +120,20 @@
 }
 
 .head-poster {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--semi-font);
   text-transform: uppercase;
   font-size: 60px;
   word-spacing: -5px;
-  color: rgb(255, 255, 255);
+  color: var(--main-color-text);
 }
 
 .head-text {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--semi-font);
   text-transform: uppercase;
   display: block;
   font-size: 24px;
   font-weight: 300;
-  color: rgb(255, 255, 255);
+  color: var(--main-color-text);
   text-align: left;
   padding: 20px 178px 20px 178px;
 }
@@ -151,7 +151,7 @@
   height: 105px;
   cursor: pointer;
   border: none;
-  background-color: rgba(78, 198, 171, 0.65);
+  background-color: var(--background-color-button);
 }
 
 .right-button {
@@ -167,29 +167,29 @@
   height: 105px;
   cursor: pointer;
   border: none;
-  background-color: rgba(78, 198, 171, 0.65);
+  background-color: var(--background-color-button);
 }
 
 .right-button:hover,
 .left-button:hover {
-  background-color: rgb(51, 204, 153);
+  background-color: var(--main-color-hover);
 }
 
 .news {
   text-align: center;
   margin-bottom: 90px;
   padding-top: 100px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--semi-font);
   text-decoration: none;
   font-size: 48px;
   text-transform: uppercase;
-  color: rgb(102, 102, 102);
+  color: var(--head-text-color);
 }
 
 .news::after {
   content: "";
   border-bottom: 6px solid;
-  color: rgb(26, 188, 156);
+  color: var(--line-color-head);
   display: block;
   width: 165px;
   margin: 0 auto;
@@ -215,8 +215,7 @@
   padding: 10px;
   text-transform: uppercase;
   font-size: 18px;
-  color: rgb(255, 255, 255);
-
+  color: var(--main-color-text);
 }
 
 .price-product {
@@ -225,15 +224,15 @@
   font-family: "Roboto", sans-serif;
   padding: 5px 10px 5px 10px;
   font-size: 18px;
-  color: rgb(255, 255, 255);
-  background-color: #ffffff70;
+  color: var(--main-color-text);
+  background-color: var(--price-product-background-color);
   text-transform: uppercase;
   line-height: 1.778;
   font-weight: bold;
 }
 
 .card-product:hover .product-item {
-  background-color: #33cc99;
+  background-color: var(--main-color-hover);
 }
 
 .img-product {
@@ -242,7 +241,7 @@
 
 .product-item {
   height: 40px;
-  background-color: #333333;
+  background-color: var(--product-item-background-color);
 }
 
 .overlay-cart {
@@ -251,7 +250,7 @@
   left: 10px;
   right: 10px;
   bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.52);
+  background-color: var(--main-overlay-color);
   display: none;
 }
 
@@ -294,7 +293,7 @@
   background-color: transparent;
   cursor: pointer;
   border: 1px solid;
-  border-color: rgb(255, 255, 255);
+  border-color: var(--main-border-color);
 }
 
 .shadow-item {
@@ -306,7 +305,7 @@
   display: block;
   background-image: url(./img/icon-center.png);
   border: 1px solid;
-  border-color: rgb(255, 255, 255);
+  border-color: var(--main-border-color);
   background-color: transparent;
 }
 
@@ -319,7 +318,7 @@
   background-image: url(./img/icon-time.png);
   cursor: pointer;
   border: 1px solid;
-  border-color: rgb(255, 255, 255);
+  border-color: var(--main-border-color);
   background-color: transparent;
 }
 
@@ -334,11 +333,11 @@
   background-image: url(./img/icon-basket.png);
   background-color: #323232;
   border: 1px solid;
-  border-color: rgb(255, 255, 255);
-  color: #fff;
+  border-color: var(--main-border-color);
+  color: var(--main-color-text);
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--main-font);
   cursor: pointer;
   text-decoration: none;
 }
@@ -347,25 +346,24 @@
 .shadow-item:hover,
 .time-item:hover,
 .basket-item:hover {
-  background-color: #33cc99;
+  background-color: var(--main-color-hover);
 }
 
 .desigh {
   width: 100%;
-  background-color: #323232;
+  background-color: var(--footer-background-color);
   padding: 35px;
   text-align: center;
 }
 
 .footer-item {
-  font-family: 'Open Sans',
-    sans-serif;
+  font-family: var(--main-font);
   letter-spacing: -0.02em;
-  color: #fefefe;
+  color: var(--footer-text-color);
 }
 
 .span-footer {
   text-decoration: none;
-  color: #46bfa9;
+  color: var(--footer-design-color);
   cursor: pointer;
 }
