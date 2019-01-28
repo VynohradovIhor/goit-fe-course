@@ -59,7 +59,7 @@
 
 .nav {
   text-align: right;
-  padding-top: 7px; 
+  padding-top: 7px;
 }
 
 .menu-item {
@@ -94,29 +94,29 @@
   Overflow: hidden;
 }
 
-.slider-img{
+.slider-img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
 
- .overlay {
-   position: absolute;
-   top: 0px;
-   left: 0px;
-   right: 0px;
-   bottom: 0px;
-   background-color: rgba(0, 0, 0, 0.52);
-   z-index: 1;
- }
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.52);
+  z-index: 1;
+}
 
 
 .slider-center {
-  position: absolute;  
-  top: 50%;  
-  left: 50%;  
-  transform: translate(-50%, -50%);  
-  text-align: center; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .head-poster {
@@ -139,26 +139,26 @@
 }
 
 .left-button {
- display: block;
- position: absolute;
- top: 50%;
- left: 0; 
- transform: translateY(-50%);
- background-image: url(./img/left-icon.png);
- background-repeat: no-repeat;
- background-position: 50% 50%;
- width: 105px;
- height: 105px;
- cursor: pointer;
- border: none;
- background-color: rgba(78, 198, 171, 0.65);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-image: url(./img/left-icon.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 105px;
+  height: 105px;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(78, 198, 171, 0.65);
 }
 
 .right-button {
   display: block;
   position: absolute;
   top: 50%;
-  right: 0; 
+  right: 0;
   transform: translateY(-50%);
   background-image: url(./img/right-icon.png);
   background-repeat: no-repeat;
@@ -236,9 +236,9 @@
   background-color: #33cc99;
 }
 
- .img-product {
-   display: block;
- }
+.img-product {
+  display: block;
+}
 
 .product-item {
   height: 40px;
@@ -246,13 +246,13 @@
 }
 
 .overlay-cart {
- position: absolute;
- top: 10px;
- left: 10px;
- right: 10px;
- bottom: 50px;
- background-color: rgba(0, 0, 0, 0.52);
- display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.52);
+  display: none;
 }
 
 .card-product:hover .overlay-cart {
@@ -264,7 +264,7 @@
   top: 30%;
   left: 15%;
   display: block;
-  font-size: 0px; 
+  font-size: 0px;
 }
 
 .hover-item {
@@ -272,7 +272,7 @@
   margin-right: 7px;
 }
 
-.hover-item:last-child{
+.hover-item:last-child {
   margin-right: 0;
 }
 
@@ -289,7 +289,7 @@
   background-position: 50% 50%;
   width: 50px;
   height: 50px;
-  display: block; 
+  display: block;
   background-image: url(./img/icon-like.png);
   background-color: transparent;
   cursor: pointer;
@@ -303,7 +303,7 @@
   width: 50px;
   height: 50px;
   cursor: pointer;
-  display: block; 
+  display: block;
   background-image: url(./img/icon-center.png);
   border: 1px solid;
   border-color: rgb(255, 255, 255);
@@ -315,7 +315,7 @@
   background-position: 50% 50%;
   width: 50px;
   height: 50px;
-  display: block; 
+  display: block;
   background-image: url(./img/icon-time.png);
   cursor: pointer;
   border: 1px solid;
@@ -324,7 +324,7 @@
 }
 
 .basket-item {
-  display: block; 
+  display: block;
   width: 165px;
   height: 50px;
   padding: 16px 10px 16px 10px;
@@ -350,24 +350,22 @@
   background-color: #33cc99;
 }
 
-
-
 .desigh {
   width: 100%;
   background-color: #323232;
-  padding: 40px; 
+  padding: 35px;
   text-align: center;
 }
 
 .footer-item {
-    font-family: 'Open Sans',
+  font-family: 'Open Sans',
     sans-serif;
-    letter-spacing: -0.02em;
-    color: #fefefe;
+  letter-spacing: -0.02em;
+  color: #fefefe;
 }
 
 .span-footer {
-    text-decoration: none;
-    color: #46bfa9;
-    cursor: pointer;
+  text-decoration: none;
+  color: #46bfa9;
+  cursor: pointer;
 }
