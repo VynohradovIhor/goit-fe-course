@@ -139,7 +139,9 @@
   font-size: 24px;
   font-weight: 300;
   color: var(--main-color-text);
-  
+  float: left;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
 .left-button {
