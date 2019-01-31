@@ -123,12 +123,14 @@
 }
 
 .head-poster {
+  
   display: inline-block;
   font-family: var(--semi-font);
   text-transform: uppercase;
   font-size: 60px;
   word-spacing: -5px;
   color: var(--main-color-text);
+  margin-bottom: 20px;
 }
 
 .head-text {
