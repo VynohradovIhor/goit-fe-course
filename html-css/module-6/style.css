@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    font-family: var(--semi-font);
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper,
+    {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+* li {
+    list-style: none;
+}
+
+* a {
+    text-decoration: none;
+}
+
+.sprite {
+    background-image: url(./img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-img10 {
+    width: 13px;
+    height: 26px;
+    background-position: -47px -5px;
+}
+
+.sprite-img13 {
+    width: 26px;
+    height: 22px;
+    background-position: -78px -41px;
+}
+
+.sprite-img11 {
+    width: 26px;
+    height: 26px;
+    background-position: -70px -5px;
+}
+
+.sprite-img12 {
+    width: 21px;
+    height: 26px;
+    background-position: -47px -41px;
+}
+
+.sprite-img1 {
+    width: 32px;
+    height: 31px;
+    background-position: -5px -5px;
+}
+
+.sprite-img2 {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -73px;
+}
+
+.sprite-img3 {
+    width: 32px;
+    height: 28px;
+    background-position: -78px -73px;
+}
+
+.sprite-img4 {
+    width: 32px;
+    height: 32px;
+    background-position: -114px -5px;
+}
+
+.sprite-img5 {
+    width: 32px;
+    height: 31px;
+    background-position: -120px -47px;
+}
+
+.sprite-img6 {
+    width: 32px;
+    height: 32px;
+    background-position: -120px -88px;
+}
