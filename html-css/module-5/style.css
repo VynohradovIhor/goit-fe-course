@@ -60,7 +60,7 @@
 }
 
 .nav {
-  text-align: right;
+  float: right;
   padding-top: 7px;
 }
 
