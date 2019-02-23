@@ -2,9 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
-
-  font-family: var(--semi-font);
+  font-family: "Montserrat",
+    sans-serif;
+  font-family: 'Kaushan Script',
+    cursive;
+  font-family: 'Roboto',
+    sans-serif;
 }
 
 *::before,
@@ -86,7 +89,7 @@
   font-size: 24px;
 }
 
-.head-section {
+.text-section {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -96,7 +99,17 @@
   margin-bottom: 65px;
 }
 
-.head-section::after {
+.text-section-item {
+  display: block;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-family: "Kaushan Script",
+    cursive;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.text-section::after {
   content: "";
   margin: 0 auto;
   display: block;
@@ -104,6 +117,7 @@
   width: 60px;
   margin-top: 40px;
 }
+
 
 .instrumental-head {
   display: flex;
@@ -191,143 +205,129 @@
   background-position: -120px -88px;
 }
 
-.conteiner-icon{
-    width: 300px;
+.conteiner-icon {
+  width: 300px;
+}
+
+.text-section {
+  margin-bottom: 45px;
 }
 
 .head-text {
-    font-family: 'Montserrat',
+  font-family: 'Montserrat',
     sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: rgb(51, 51, 51);
-    margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgb(51, 51, 51);
+  margin-bottom: 20px;
 }
 
 .text-item {
-    font-family: 'Roboto',
+  font-family: 'Roboto',
     sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(153, 153, 153);
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
 }
 
 .head-text-item {
-    width: 83%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 100px;
-    font-family: 'Roboto',
+  width: 83%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: 'Roboto',
     sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: rgb(153, 153, 153);
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(153, 153, 153);
 }
 
 
 .photo-item {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .photo-text {
-    width: 83%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 100px;
+  width: 83%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .head-list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .head-list-item {
-    width: 380px;
-    margin-bottom: 80px;
+  width: 380px;
+  margin-bottom: 80px;
 }
 
 .img-cont {
-    position: relative;
-    margin-bottom: 15px;
+  position: relative;
+  margin-bottom: 15px;
 }
 
 .img-cont:hover {
-    transform: translate(-10px, -10px);
-    transition: 0.2s linear;
+  transform: translate(-10px, -10px);
+  transition: 0.2s linear;
 }
 
 .team-list-image {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .overlay {
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg,
-        rgb(252, 227, 138) 0%,
-        rgb(243, 129, 129) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg,
+    rgb(252, 227, 138) 0%,
+    rgb(243, 129, 129) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-cont:hover .overlay {
-    visibility: visible;
-    opacity: 0.9;
-    -webkit-box-shadow: 10px 10px 0px 0px  #95e1d3;
-    -moz-box-shadow: 10px 10px 0px 0px #95e1d3;
-    box-shadow: 10px 10px 0px 0px #95e1d3;
-    transition: 0.2s linear;
+  visibility: visible;
+  opacity: 0.9;
+  -webkit-box-shadow: 10px 10px 0px 0px #95e1d3;
+  -moz-box-shadow: 10px 10px 0px 0px #95e1d3;
+  box-shadow: 10px 10px 0px 0px #95e1d3;
+  transition: 0.2s linear;
 }
 
 .head-list {
-    display: flex;
+  display: flex;
 }
 
 .socials-list-item:nth-child(-n + 4) {
-    margin-right: 1px;
+  margin-right: 1px;
 }
 
 
 .socials-list-item:hover {
-    background-color: #95e1d3;
-    transition: 0.2s linear;
+  background-color: #95e1d3;
+  transition: 0.2s linear;
 }
 
-.team-list-name {
-    text-align: center;
-    font-size: 14px;
-    font-family: var(--title-font);
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--fourth-color);
-    margin-bottom: 30px;
-}
-
-.team-list-description {
-    text-align: center;
-    font-size: 15px;
-    font-family: var(--description-font);
-    font-weight: 300;
-    font-style: italic;
-    color: var(--secondary-color);
-}
 .socials-list {
   display: flex;
 }
 
-.socials-list-item{
+.socials-list-item {
   display: block;
   width: 55px;
   height: 50px;
-  background-color:#fce38a;
+  background-color: #fce38a;
   text-align: center;
   margin-top: 15px;
 }
@@ -335,16 +335,15 @@
 .sprite-img11,
 .sprite-img12,
 .sprite-img13,
-.sprite-img10
- {
-margin-top: 12px;
+.sprite-img10 {
+  margin-top: 12px;
 }
 
 .team-list-name {
   text-align: center;
   font-size: 14px;
   font-family: 'Montserrat',
-  sans-serif;
+    sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   color: rgb(51, 51, 51);
@@ -355,7 +354,7 @@ margin-top: 12px;
   text-align: center;
   font-size: 15px;
   font-family: 'Roboto',
-  sans-serif;
+    sans-serif;
   font-weight: 300;
   font-style: italic;
   color: rgb(153, 153, 153);
@@ -366,12 +365,15 @@ margin-top: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid;
+  color: rgb(204, 204, 204);
 }
+
 
 .footer-address {
   font-size: 14px;
   font-family: 'Montserrat',
-  sans-serif;
+    sans-serif;
   font-weight: 400;
   font-style: normal;
   color: rgb(51, 51, 51);
@@ -389,11 +391,12 @@ margin-top: 12px;
 .footer-button {
   height: 40px;
   width: 150px;
+  margin-top: 10px;
   border-style: none;
   background: rgb(149, 225, 211);
   text-transform: uppercase;
   font-family: 'Montserrat',
-  sans-serif;
+    sans-serif;
   font-weight: 700;
   font-size: 14px;
   color: rgb(255, 255, 255);
@@ -407,7 +410,7 @@ margin-top: 12px;
   color: rgb(153, 153, 153);
   font-size: 15px;
   font-family: 'Roboto',
-  sans-serif;
+    sans-serif;
   font-weight: 300;
   font-style: italic;
 }
