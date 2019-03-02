@@ -1,0 +1,227 @@
+@import "./vars.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+
+* li {
+    list-style: none;
+}
+
+* a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 120px;
+}
+
+.logo {
+    margin: 0 0;
+    font-family: var(--title-font);
+    font-size: 26px;
+    color: var(--secondary-color);
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list_item:nth-child(-n + 4) {
+    margin-right: 40px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: var(--first-font);
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title-header {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: var(--secondary-font);
+    font-size: 40px;
+}
+
+.title-down {
+    display: block;
+    font-family: var(--description-font);
+    font-size: 16px;
+    color: var(--third-color);
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.services-item {
+    width: 290px;
+    text-align: center;
+}
+
+.services-title {
+    margin-bottom: 20px;
+    font-family: var(--secondary-font);
+    font-size: 18px;
+}
+
+.services-title::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+}
+
+.sprite-basket::before {
+    background-position: -25px -26px;
+}
+
+.sprite-laptop::before {
+    background-position: -145px -21px;
+}
+
+.sprite-locked::before {
+    background-position: -139px -142px;
+}
+
+.services-text {
+    font-family: var(--services-font);
+    font-size: 14px;
+    color: var(--third-color);
+}
+
+.footer-wrapper {
+    background-image: url(../img/map.png);
+    background-color: var(--main-color);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: contain;
+    display: block;
+    background-position: right;
+}
+
+.footer .section-title {
+    padding-top: 110px;
+    color: var(--fourth-color);
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feedback input,
+.feedback textarea {
+    width: 455px;
+    padding: 0 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    color: var(--third-color);
+}
+
+.input-item:nth-child(-n + 2) {
+    margin-bottom: 30px;
+}
+
+.feedback input {
+    height: 55px;
+}
+
+.feedback textarea {
+    resize: none;
+    padding-top: 20px;
+}
+
+.feedback input::placeholder,
+.feedback textarea::placeholder {
+    text-transform: uppercase;
+    color: var(--border-color);
+}
+
+.feedback *:required:focus:valid {
+    border-color: var(--valid-color);
+}
+
+.feedback *:required:focus:invalid {
+    border-color: var(--invalid-color);
+}
+
+.form-button {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    color: var(--fourth-color);
+    width: 240px;
+    height: 65px;
+    background-color: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 30px auto 115px;
+}
+
+
+.sprite {
+    background-image: url(./img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-basket {
+    width: 40px;
+    height: 39px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon-laptop {
+    width: 41px;
+    height: 35px;
+    background-position: -55px -5px;
+}
+
+.sprite-icon-locked {
+    width: 29px;
+    height: 38px;
+    background-position: -55px -50px;
+}
