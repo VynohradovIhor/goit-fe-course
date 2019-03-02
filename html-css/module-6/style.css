@@ -365,10 +365,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid;
-  color: rgb(204, 204, 204);
 }
 
+.photo::after { 
+content: "";
+border-top: 1px solid;
+color: rgb(204, 204, 204);
+display: block; 
+width: 100%;
+padding-bottom: 15px; 
+}
 
 .footer-address {
   font-size: 14px;
@@ -391,7 +397,6 @@
 .footer-button {
   height: 40px;
   width: 150px;
-  margin-top: 10px;
   border-style: none;
   background: rgb(149, 225, 211);
   text-transform: uppercase;
