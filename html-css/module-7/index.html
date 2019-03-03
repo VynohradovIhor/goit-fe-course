@@ -12,55 +12,57 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="main-header">
             <a href="#" class="link-logo">
                 <h1 class="logo">Golden</h1>
             </a>
-            <ul class="nav-list">
-                <li class="nav-list_item">
-                    <a href="#" class="nav-link">home</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-link">services</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-link">portfolio</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-link">about</a>
-                </li>
-                <li class="nav-list_item">
-                    <a href="#" class="nav-link">contact</a>
-                </li>
-            </ul>
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-link">
+                        <a href="#" class="nav-link-item">home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-link-item">services</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-link-item">portfolio</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-link-item">about</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="nav-link-item">contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
-        <main class="main">
-            <section class="services-section">
+        <main class="site-main">
+            <section class="first-section">
                 <div class="section-title">
                     <h2 class="title-header">services</h2>
-                    <p class="title-down">Lorem ipsum dolor sit amet.</p>
+                    <p class="title-text">Lorem ipsum dolor sit amet.</p>
                 </div>
-                <ul class="services-list">
-                    <li class="services-item">
-                        <h3 class="services-title sprite-icon-basket">E-Commerce</h3>
-                        <p class="services-text">
+                <ul class="list-section">
+                    <li class="list-section-item">
+                        <h3 class="card-title sprite-icon-basket">E-Commerce</h3>
+                        <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
                             laboriosam modi magni possimus, pariatur id labore! Aspernatur,
                             quidem. Porro, perspiciatis?
                         </p>
                     </li>
-                    <li class="services-item">
-                        <h3 class="services-title sprite-icon-laptop">Responsive Web</h3>
-                        <p class="services-text">
+                    <li class="list-section-item">
+                        <h3 class="card-title sprite-icon-laptop">Responsive Web</h3>
+                        <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
                             laboriosam modi magni possimus, pariatur id labore! Aspernatur,
                             quidem. Porro, perspiciatis?
                         </p>
                     </li>
-                    <li class="services-item">
-                        <h3 class="services-title sprite-icon-locked">Web Security</h3>
-                        <p class="services-text">
+                    <li class="list-section-item">
+                        <h3 class="card-title sprite-icon-locked">Web Security</h3>
+                        <p class="card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
                             laboriosam modi magni possimus, pariatur id labore! Aspernatur,
                             quidem. Porro, perspiciatis?
@@ -70,26 +72,42 @@
             </section>
         </main>
     </div>
-    <div class="footer-wrapper">
-        <footer class="footer wrapper">
+    <div class="footer-wrapper"> 
+       <footer class="footer wrapper"> 
             <div class="section-title">
                 <h2 class="title-header">contact us</h2>
-                <p class="title-down">Lorem ipsum dolor sit amet.</p>
+                <p class="title-text">Lorem ipsum dolor sit amet.</p>
             </div>
-            <form action="#" class="feedback" id="feedback">
+            <form action="#" class="mainforms" id="mainforms">
                 <ul class="input-list">
                     <li class="input-item">
-                        <input type="text" name="user_name" placeholder="your name*" id="user_name" required />
+                        <input type="text" 
+                         name="user_name" 
+                         placeholder="your name*" 
+                         id="user_name" 
+                         required />
                     </li>
                     <li class="input-item">
-                        <input type="email" name="user_email" placeholder="your e-mail*" id="user_email" required />
+                        <input type="email" 
+                         name="user_email" 
+                         placeholder="your e-mail*" 
+                         id="user_email" 
+                         required />
                     </li>
                     <li class="input-item">
-                        <input type="text" name="subject" placeholder="subject" id="subject" />
+                        <input type="text" 
+                         name="subject" 
+                         placeholder="subject" 
+                         id="subject" />
                     </li>
                 </ul>
-                <textarea name="comments" id="comments" placeholder="your massage*" rows="12" required></textarea>
-                <button class="form-button" type="submit">send massage</button>
+                <textarea name="comments" 
+                 id="comments" 
+                 placeholder="your massage*" 
+                 rows="12" 
+                 required>
+                </textarea>
+                <button class="footer-button" type="submit">send massage</button>
             </form>
         </footer>
     </div>

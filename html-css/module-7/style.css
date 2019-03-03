@@ -24,7 +24,7 @@
     text-decoration: none;
 }
 
-.header {
+.main-header {
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@
 
 .logo {
     margin: 0 0;
-    font-family: var(--title-font);
+    font-family: var(--logo-font);
     font-size: 26px;
     color: var(--secondary-color);
 }
@@ -43,18 +43,18 @@
     display: flex;
 }
 
-.nav-list_item:nth-child(-n + 4) {
+.nav-link:nth-child(-n + 4) {
     margin-right: 40px;
 }
 
-.nav-link {
+.nav-link-item {
     text-transform: uppercase;
     font-family: var(--first-font);
     font-size: 14px;
-    color: var(--main-color);
+    color: var(--menu-color);
 }
 
-.nav-link:hover {
+.nav-link-item:hover {
     color: var(--secondary-color);
 }
 
@@ -71,31 +71,31 @@
     font-size: 40px;
 }
 
-.title-down {
+.title-text {
     display: block;
     font-family: var(--description-font);
     font-size: 16px;
     color: var(--third-color);
 }
 
-.services-list {
+.list-section {
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
 }
 
-.services-item {
+.list-section-item {
     width: 290px;
     text-align: center;
 }
 
-.services-title {
+.card-title {
     margin-bottom: 20px;
     font-family: var(--secondary-font);
     font-size: 18px;
 }
 
-.services-title::before {
+.card-title::before {
     content: "";
     display: block;
     margin: 0 auto;
@@ -120,7 +120,7 @@
     background-position: -81px -83px;
 }
 
-.services-text {
+.card-text {
     font-family: var(--services-font);
     font-size: 14px;
     color: var(--third-color);
@@ -128,7 +128,7 @@
 
 .footer-wrapper {
     background-image: url(./img/map-image.png);
-    background-color: var(--main-color);
+    background-color: var(--menu-color);
     background-repeat: no-repeat;
     height: 100%;
     background-size: contain;
@@ -141,14 +141,14 @@
     color: var(--fourth-color);
 }
 
-.feedback {
+.mainforms {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.feedback input,
-.feedback textarea {
+.mainforms input,
+.mainforms textarea {
     width: 455px;
     padding: 0 20px;
     border: 2px solid var(--border-color);
@@ -163,30 +163,30 @@
     margin-bottom: 30px;
 }
 
-.feedback input {
+.mainforms input {
     height: 55px;
 }
 
-.feedback textarea {
+.mainforms textarea {
     resize: none;
-    padding-top: 20px;
+    padding-top: 10px; 
 }
 
-.feedback input::placeholder,
-.feedback textarea::placeholder {
+.mainforms input::placeholder,
+.mainforms textarea::placeholder {
     text-transform: uppercase;
     color: var(--border-color);
 }
 
-.feedback *:required:focus:valid {
+.mainforms *:required:focus:valid {
     border-color: var(--valid-color);
 }
 
-.feedback *:required:focus:invalid {
+.mainforms *:required:focus:invalid {
     border-color: var(--invalid-color);
 }
 
-.form-button {
+.footer-button {
     cursor: pointer;
     font-size: 18px;
     font-family: var(--secondary-font);

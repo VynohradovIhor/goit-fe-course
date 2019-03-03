@@ -1,14 +1,14 @@
 @import "./fonts.css";
 
 :root {
-    --main-color: #222222;
+    --menu-color: #222222;
     --secondary-color: #fed136;
     --third-color: #777777;
     --fourth-color: #ffffff;
     --border-color: #cccccc;
     --valid-color: #008000;
     --invalid-color: #fa0808;
-    --title-font: 'Bilbo Swash Caps',
+    --logo-font: 'Bilbo Swash Caps',
         sans-serif;
     --first-font: 'Montserrat Regular', sans-serif;
     --secondary-font: 'Montserrat Bold', sans-serif;
