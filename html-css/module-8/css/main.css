@@ -1,29 +1,10 @@
-.sprite {
-    background-image: url(../img/spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
-}
+@import "./media.css";
+@import "./fonts.css";
+@import "./vars.css";
+@import "./libs/normalize.css";
+@import "./libs/reset.css";
+@import "./libs/utils.css";
+@import "./libs.css/sprite.css";
 
-.sprite-icon-1 {
-    width: 16px;
-    height: 16px;
-    background-position: -20px -20px;
-}
 
-.sprite-icon-2 {
-    width: 16px;
-    height: 17px;
-    background-position: -76px -20px;
-}
 
-.sprite-icon-3 {
-    width: 13px;
-    height: 16px;
-    background-position: -132px -20px;
-}
-
-.sprite-icon-4 {
-    width: 17px;
-    height: 16px;
-    background-position: -20px -77px;
-}

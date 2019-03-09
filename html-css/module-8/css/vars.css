@@ -1,0 +1,19 @@
+@import "./fonts.css";
+
+:root {
+    --main-color: #ffffff;
+    --second-color: #333333;
+    --third-color: #666666;
+    --button-color: #ff4e50;
+    --wrapper-color: #1a1915;
+
+    --second-par: #ffa507;
+    --third-par: #1cd7ad;
+    --fourth-par: #4e73db;
+
+    --title-font: "Montserrat Bold", sans-serif;
+    --first-font: "Montserrat Regular", sans-serif;
+    --descript-font: "Roboto Lights", sans-serif;
+
+    --main-size: 14px;
+}
