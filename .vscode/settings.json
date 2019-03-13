@@ -1,4 +1,5 @@
 {
     "prettier.arrowParens": "always",
-    "prettier.eslintIntegration": true
+    "prettier.eslintIntegration": true,
+    "git.ignoreLimitWarning": true
 }
