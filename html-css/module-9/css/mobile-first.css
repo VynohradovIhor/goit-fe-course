@@ -30,29 +30,12 @@ html {
 .wrapper {
     background: var(--wrapper-color) url("../img/Promo.png") center no-repeat;
     background-size: cover;
-    padding-top: 2rem;
-    padding-bottom: 14rem;
     text-align: center;
 }
 
-
 .header-logo {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
     margin-bottom: 4rem;
-}
-
-.validation-nav {
-    margin-bottom: 11rem;
-}
-
-.validation-list {
-    display: flex;
-}
-
-.validation-list_item:nth-child(-n + 1) {
-    margin-right: 0.5rem;
+    padding-top: 2rem;
 }
 
 .validation-button {
@@ -78,6 +61,11 @@ html {
 .logo {
     font-size: 2rem;
     padding: 2rem;
+}
+
+.fullscreen__photo {
+    justify-content: center;
+    padding-bottom: 14rem;
 }
 
 .photo-title__up {
@@ -143,18 +131,11 @@ html {
 .partners__section {
     padding-top: 7rem;
     padding-bottom: 5rem;
-    text-align: center;
+    justify-content: center;
 }
 
 .partners-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-bottom: 3rem;
-}
-
-.partners-list_item:nth-child(-n + 3) {
-    margin-bottom: 30px;
 }
 
 .img-container {
@@ -167,8 +148,7 @@ html {
 }
 
 .figure-partners_figcaption {
-    width: 21.5rem;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .partners-name {
