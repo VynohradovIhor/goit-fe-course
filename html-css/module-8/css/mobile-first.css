@@ -154,7 +154,7 @@ html {
 }
 
 .partners-list_item:nth-child(-n+3) {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .img-container {
