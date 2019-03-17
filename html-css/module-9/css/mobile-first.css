@@ -24,18 +24,21 @@ html {
 
 .container {
     min-width: 32rem;
+    max-width: 94rem;
     margin: 0 auto;
 }
 
 .wrapper {
     background: var(--wrapper-color) url("../img/Promo.png") center no-repeat;
     background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 14rem;
     text-align: center;
 }
 
 .header-logo {
-    margin-bottom: 4rem;
-    padding-top: 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
 .validation-button {
@@ -56,6 +59,7 @@ html {
     font-size: var(--main-size);
     font-family: var(--title-font);
     color: var(--main-color);
+    padding: 0;
 }
 
 .logo {
@@ -63,15 +67,14 @@ html {
     padding: 2rem;
 }
 
-.fullscreen__photo {
-    justify-content: center;
-    padding-bottom: 14rem;
-}
-
 .photo-title__up {
     font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
+}
+
+.fullscreen__photo {
+    justify-content: center;
 }
 
 .photo-title__down {
@@ -84,13 +87,13 @@ html {
 .photo__button {
     background-color: var(--button-color);
     color: var(--main-color);
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
 }
 
 .title--button {
-    display: inline-block;
     font-family: var(--title-font);
     border-radius: 1.8rem;
+    font-size: var(--main-size);
 }
 
 .img-container::after {
@@ -131,10 +134,17 @@ html {
 .partners__section {
     padding-top: 7rem;
     padding-bottom: 5rem;
-    justify-content: center;
+    text-align: center;
 }
 
 .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.partners-list_item:nth-child(-n+3) {
     margin-bottom: 3rem;
 }
 
@@ -147,8 +157,9 @@ html {
     border-radius: 50%;
 }
 
-.figure-partners_figcaption {
-    text-align: center;
+.partners-figure {
+    width: 21.5rem;
+    margin: 0 auto;
 }
 
 .partners-name {
@@ -167,6 +178,8 @@ html {
     box-shadow: 0 0 0 0.2rem var(--button-color);
     padding: 1rem 7rem;
     border-radius: 1.8rem;
+    font-size: var(--main-size);
+    font-family: var(--title-font);
 }
 
 .title--partners {
