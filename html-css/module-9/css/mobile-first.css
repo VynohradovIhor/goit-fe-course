@@ -9,8 +9,10 @@
     box-sizing: inherit;
 }
 
-* li {
+* li,
+ul {
     list-style: none;
+    margin: 0;
 }
 
 * a {
@@ -24,7 +26,7 @@ html {
 
 .container {
     min-width: 32rem;
-    max-width: 94rem;
+    /* max-width: 94rem; */
     margin: 0 auto;
 }
 
@@ -36,15 +38,13 @@ html {
     text-align: center;
 }
 
-.header-logo {
-    flex-direction: column-reverse;
-    align-items: center;
+.validation-list_item {
+    width: 9rem;
+    height: 3.5rem;
 }
 
 .validation-button {
     border-radius: 1.8rem;
-    width: 9rem;
-    height: 3.5rem;
     background: transparent;
     border: 0.2rem solid transparent;
     outline: none;
@@ -64,7 +64,7 @@ html {
 
 .logo {
     font-size: 2rem;
-    padding: 2rem;
+    margin: 0;
 }
 
 .photo-title__up {
@@ -173,13 +173,13 @@ html {
 }
 
 .partners-link {
-    background-color: transparent;
     color: var(--button-color);
     box-shadow: 0 0 0 0.2rem var(--button-color);
-    padding: 1rem 7rem;
+    padding: 1rem 5rem;
     border-radius: 1.8rem;
     font-size: var(--main-size);
     font-family: var(--title-font);
+    margin: 0 auto;
 }
 
 .title--partners {
