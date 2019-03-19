@@ -2,6 +2,9 @@
                         .validation-nav {
                             margin-bottom: 11rem;
                         }
+                        .fullscreen__photo {
+                            padding: 0 0.5rem;
+                        }
                         .header-logo {
                             flex-direction: column-reverse;
                             padding-bottom: 4rem;
@@ -21,6 +24,12 @@
                     }
                     
                     @media screen and (min-width: 768px) {
+                        .wrapper {
+                            padding-top: 4rem;
+                        }
+                        .container {
+                            width: 93.9rem;
+                        }
                         .header-logo {
                             justify-content: space-between;
                             align-items: baseline;
@@ -33,6 +42,12 @@
                         .photo-title__up {
                             font-size: 5.2rem;
                             margin-bottom: 3.5rem;
+                        }
+                        .text-logo {
+                            display: flex;
+                        }
+                        .logo {
+                            text-align: start;
                         }
                         .photo-title__down {
                             font-size: 2.4rem;
