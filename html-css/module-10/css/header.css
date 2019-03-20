@@ -1,0 +1,91 @@
+.wrapper {
+    background: linear-gradient(0deg, rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%), url("../img/banner.jpg") center no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .wrapper {
+        background-image: url("../img/banner-@2x.jpg");
+    }
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 25px;
+    margin-bottom: 170px;
+}
+
+.site-logo__title {
+    font-size: 30px;
+}
+
+
+/* NAVIGATION */
+
+.header-nav__list {
+    display: flex;
+}
+
+.header-nav__item:not(:nth-child(7)) {
+    margin-right: 60px;
+}
+
+.header-nav__item::after {
+    content: '';
+    display: block;
+    margin-top: 10px;
+    border: 1px solid transparent;
+    width: 100%;
+}
+
+.header-nav__item:hover .header-nav__link {
+    color: var(--header-hover);
+}
+
+.header-nav__item:hover .header-nav__icons {
+    fill: var(--header-hover);
+}
+
+.header-nav__item:hover::after {
+    border-color: var(--header-hover);
+}
+
+.header-nav__link {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.header-nav__icons {
+    width: 18px;
+    height: 15px;
+    fill: var(--main-color)
+}
+
+
+/* HEAD SECTION */
+
+.head-section {
+    width: 840px;
+    margin: 0 auto;
+    padding-bottom: 230px;
+}
+
+.head-section__title {
+    margin-bottom: 125px;
+    font-size: 150px;
+    text-transform: uppercase;
+}
+
+.head-section__title-description {
+    margin-bottom: 35px;
+    font-size: 72px;
+}
+
+.section-btn--header {
+    border: 3px solid var(--main-color);
+}
