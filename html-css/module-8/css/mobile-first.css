@@ -24,6 +24,7 @@ html {
 
 .container {
     min-width: 32rem;
+    text-align: center;
     margin: 0 auto;
 }
 
