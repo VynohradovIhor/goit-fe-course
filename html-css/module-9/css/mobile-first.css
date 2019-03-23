@@ -57,6 +57,7 @@ html {
     outline: none;
     cursor: pointer;
     padding: 0 0.5rem;
+    text-align: end;
 }
 
 .validation-button:hover {
@@ -77,6 +78,7 @@ html {
     font-size: 3rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
+    padding: 0;
 }
 
 .fullscreen__photo {
