@@ -1,0 +1,37 @@
+.footer {
+    padding: 10px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid map-get($map: $colors, $key: footer-color);
+}
+
+.address {
+    @include font-setting(first-font, second-color);
+}
+
+.address__link {
+    color: map-get($map: $colors, $key: red-color);
+}
+
+.email-form {
+    display: flex;
+}
+
+.email-form__input {
+    width: 230px;
+    padding-left: 15px;
+    line-height: 40px;
+    @include font-setting(descript-font, third-color, 15px);
+    border: 1px solid map-get($map: $colors, $key: footer-color);
+    &::placeholder {
+        color: map-get($map: $colors, $key: footer-color);
+    }
+}
+
+.section-btn--footer {
+    @extend %section-btn;
+    background-color: map-get($map: $colors, $key: services-icons);
+    border: none;
+    cursor: pointer;
+}

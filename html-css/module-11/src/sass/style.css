@@ -1,0 +1,10 @@
+// LIBS
+@import './lib/normalize';
+// HELPERS COMPONENTS
+@import './helpers/fonts';
+@import './helpers/maps';
+@import './helpers/common';
+// PAGE COMPONENTS
+@import './components/header';
+@import './components/main-section';
+@import './components/footer';
