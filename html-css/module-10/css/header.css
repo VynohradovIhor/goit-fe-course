@@ -14,6 +14,7 @@
 
 .header {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: baseline;
     padding-top: 25px;
@@ -29,13 +30,16 @@
 
 .header-nav__list {
     display: flex;
+    margin-right: 90px;
+    margin-left: 70px;
 }
 
-.header-nav__item:not(:nth-child(7)) {
+.header-nav__item:not(:nth-child(5)) {
     margin-right: 60px;
 }
 
-.header-nav__item::after {
+.header-nav__item::after,
+.user-nav__item::after {
     content: '';
     display: block;
     margin-top: 10px;
@@ -43,11 +47,13 @@
     width: 100%;
 }
 
-.header-nav__item:hover .header-nav__link {
+.header-nav__item:hover .header-nav__link,
+.user-nav__item:hover .header-nav__link {
     color: var(--header-hover);
 }
 
-.header-nav__item:hover .header-nav__icons {
+.header-nav__item:hover .header-nav__icons,
+.user-nav__item:hover .header-nav__icons {
     fill: var(--header-hover);
 }
 
@@ -64,6 +70,22 @@
     width: 18px;
     height: 15px;
     fill: var(--main-color)
+}
+
+.user-nav__list {
+    display: flex;
+    position: absolute;
+    top: 80%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+}
+
+.user-nav__item {
+    margin-right: 40px;
+}
+
+.user-nav__item:nth-last-child(1) {
+    margin-right: 0;
 }
 
 
