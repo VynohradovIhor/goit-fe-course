@@ -1,0 +1,93 @@
+.wrapper {
+    background: linear-gradient(0deg, rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%), url("../../images/banner.jpg") center no-repeat;
+    background-size: cover;
+    @media screen and (min-resolution: 192dpi) {
+        background-image: url("../../images/banner-@2x.jpg");
+    }
+}
+
+
+/* HEADER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 25px;
+    margin-bottom: 170px;
+}
+
+.site-logo__title {
+    @include font-setting(title-font,
+    $size: 30px);
+}
+
+
+/* NAVIGATION */
+
+.header-nav__list {
+    display: flex;
+}
+
+.header-nav__item {
+    &:not(:nth-child(7)) {
+        margin-right: 60px;
+    }
+    &::after {
+        content: '';
+        display: block;
+        margin-top: 10px;
+        border: 1px solid transparent;
+        width: 100%;
+    }
+    &:hover {
+        .header-nav__link {
+            color: map-get($map: $colors, $key: header-hover);
+        }
+        .header-nav__icons {
+            fill: map-get($map: $colors, $key: header-hover);
+        }
+        &::after {
+            border-color: map-get($map: $colors, $key: header-hover);
+        }
+    }
+}
+
+.header-nav__link {
+    @include font-setting(first-font);
+    text-transform: uppercase;
+}
+
+.header-nav__icons {
+    width: 18px;
+    height: 15px;
+    fill: map-get($map: $colors, $key: main-color);
+}
+
+
+/* HEAD SECTION */
+
+.head-section {
+    width: 840px;
+    margin: 0 auto;
+    padding-bottom: 230px;
+}
+
+.head-section__title {
+    @include font-setting(title-font,
+    $size: 150px);
+    margin-bottom: 125px;
+    text-transform: uppercase;
+}
+
+.head-section__title-description {
+    margin-bottom: 35px;
+    @include font-setting(second-font,
+    $size: 72px);
+    @extend %title-up;
+}
+
+.section-btn--header {
+    @extend %section-btn;
+    border: 3px solid map-get($map: $colors, $key: main-color);
+}

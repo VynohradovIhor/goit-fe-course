@@ -1,0 +1,42 @@
+ghtml {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@mixin font-setting($font, $color: 'main-color', $size: '14px') {
+    font-family: map-get($map: $fonts, $key: $font);
+    color: map-get($map: $colors, $key: $color);
+    font-size: #{$size};
+}
+
+%title-up {
+    text-transform: none;
+    display: block;
+}
+
+%section-btn {
+    padding: 10px 30px;
+    text-transform: uppercase;
+    @include font-setting(title-font);
+}
