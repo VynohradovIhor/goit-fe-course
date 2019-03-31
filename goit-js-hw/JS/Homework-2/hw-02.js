@@ -70,7 +70,7 @@ do {
     for (let psw of passwords) {
         if (currentInput === psw) {
             alert("Добро пожаловать!");
-            goodGess = true;
+            users = true;
             break;
         }
     }
